@@ -1,0 +1,39 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id="collectionPojo" class="com.spring.practice.bean.CollectionPojo" abstract="false">
+		<property name="listOfString">
+			<list value-type="java.lang.String">
+				<value>India</value>
+				<value>Bangladesh</value>
+				<value>Japan</value>
+				<value>Srilanka</value>
+				<value>Pakisthan</value>
+			</list>
+		</property>
+		<property name="setOfString">
+			<set value-type="java.lang.String">
+				<value>West Bengal</value>
+				<value>Chennai</value>
+				<value>Telangana</value>
+				<value>Andhra Pradesh</value>
+			</set>
+		</property>
+		<property name="mapOfIntegerString">
+			<map key-type="java.lang.Integer" value-type="java.lang.String">
+				<entry key="1" value="Rama"/>
+				<entry key="3" value="Arghya"/>
+				<entry key="2" value="Keya"/>
+				<entry key="4" value="Neha"/>
+				<entry>
+					<key><null/></key>
+					<value>Null Value is Given</value>
+				</entry>
+			</map>
+		</property>
+	</bean>
+</beans>

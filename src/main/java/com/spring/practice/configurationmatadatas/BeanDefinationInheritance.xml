@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id="twoWheelers" class="com.spring.practice.bean.Vehicles" abstract="true">
+		<property name="numberOfWheels" value="2"/>
+		<property name="vehicleType" value="TwoWheeler"/>
+	</bean>
+	<bean id="bajajTwoWheelers" class="com.spring.practice.bean.Vehicles" parent="twoWheelers" abstract="true">
+		<property name="vehicleBrand" value="Bajaj"/>
+	</bean>
+	<bean id="pulsar150" class="com.spring.practice.bean.Vehicles" parent="bajajTwoWheelers">
+		<property name="modelName" value="Pulsar-150"/>
+	</bean>
+	<bean id="pulsar180" class="com.spring.practice.bean.Vehicles" parent="bajajTwoWheelers">
+		<property name="modelName" value="Pulsar-180"/>
+	</bean>
+	<bean id="hondaTwoWheelers" class="com.spring.practice.bean.Vehicles" parent="twoWheelers" abstract="true">
+		<property name="vehicleBrand" value="Honda"/>
+	</bean>
+	<bean id="hornet" class="com.spring.practice.bean.Vehicles" parent="hondaTwoWheelers">
+		<property name="modelName" value="Hornet"/>
+	</bean>
+	<bean id="cbr250r" class="com.spring.practice.bean.Vehicles" parent="hondaTwoWheelers">
+		<property name="modelName" value="CBR-250R"/>
+	</bean>
+</beans>

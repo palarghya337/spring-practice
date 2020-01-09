@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id="employee" class="com.spring.practice.bean.Employee">
+		<constructor-arg name="name" value="Arghya Pal"/>
+		<constructor-arg name="designation" value="Software Engineer"/>
+		<constructor-arg name="gender" value="Male"/>
+		<constructor-arg name="address" ref="address"/>
+	</bean>
+	<bean id="address" class="com.spring.practice.bean.Address">
+		<constructor-arg name="pinCode" value="742102" />
+		<constructor-arg name="country" value="India" />
+		<constructor-arg name="state" value="West Bengal" />
+		<constructor-arg name="addressLine1" value="4No. Manindranagar, P.O. - Cossimbazar Raj" />
+		<constructor-arg name="addressLine2" value="Dist.- Murshidabad" />
+	</bean>
+</beans>

@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id="employee" class="com.spring.practice.bean.Employee" autowire="constructor">
+		<property name="name" value="Arghya Pal"/>
+		<property name="designation" value="Software Engineer"/>
+		<property name="gender" value="Male"/>
+	</bean>
+	
+	<bean id="employeeObj2" class="com.spring.practice.bean.Employee" autowire="constructor">
+		<constructor-arg name="name" value="Arghya Pal"/>
+		<constructor-arg name="designation" value="Software Engineer"/>
+		<constructor-arg name="gender" value="Male"/>
+	</bean>
+	
+	<bean id="address" class="com.spring.practice.bean.Address">
+		<constructor-arg value="500089"/>
+		<constructor-arg value="India"/>
+		<constructor-arg value="Telangana"/>
+		<constructor-arg value="Sri Balaji Residency, Plot. No. 87, Lancho Hills Road"/>
+		<constructor-arg value="Hanumannagar, Manikonda, Hyderabad"/>
+	</bean>
+</beans>

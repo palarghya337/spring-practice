@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id="employee" class="com.spring.practice.bean.Employee">
+		<property name="name" value="Keya Pal" />
+		<property name="designation" value="Senior Software Engineer" />
+		<property name="gender" value="Female" />
+		<property name="address" ref="address" />
+	</bean>
+	<bean id="address" class="com.spring.practice.bean.Address">
+		<property name="pinCode" value="500089" />
+		<property name="country" value="India" />
+		<property name="state" value="Telangana" />
+		<property name="addressLine1" value="Sri Balaji Residency, Plot No. 87" />
+		<property name="addressLine2" value="Hanumannagar, Manikonda" />
+	</bean>
+</beans>

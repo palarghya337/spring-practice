@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id="printSomeMessage"
+		class="com.spring.practice.bean.PrintSomeMessage" init-method="setUp"
+		destroy-method="tearDown">
+		<property name="someMessage" value="Hello World!" />
+	</bean>
+
+	<bean id="singletonPrintMessage"
+		class="com.spring.practice.bean.PrintSomeMessage" scope="singleton">
+		<property name="someMessage" value="Hello World!" />
+	</bean>
+
+	<bean id="prototypePrintMessage"
+		class="com.spring.practice.bean.PrintSomeMessage" scope="prototype">
+		<property name="someMessage" value="Hello World!" />
+	</bean>
+</beans>
