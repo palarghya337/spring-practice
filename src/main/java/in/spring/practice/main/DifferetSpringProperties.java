@@ -1,14 +1,14 @@
-package com.spring.practice.main;
+package in.spring.practice.main;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.core.SpringVersion;
 
-import com.spring.practice.bean.CollectionPojo;
-import com.spring.practice.bean.Employee;
-import com.spring.practice.bean.PrintSomeMessage;
-import com.spring.practice.bean.Vehicles;
-import com.spring.practice.utils.Log;
+import in.spring.practice.bean.CollectionPojo;
+import in.spring.practice.bean.Employee;
+import in.spring.practice.bean.PrintSomeMessage;
+import in.spring.practice.bean.Vehicles;
+import in.spring.practice.utils.Log;
 
 public class DifferetSpringProperties {
 

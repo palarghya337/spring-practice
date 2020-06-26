@@ -1,4 +1,4 @@
-package com.spring.practice.exception;
+package in.spring.practice.exception;
 
 public class InvalidDataException extends RuntimeException{
 

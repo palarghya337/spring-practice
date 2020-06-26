@@ -1,13 +1,13 @@
-package com.spring.practice.postprocessor;
+package in.spring.practice.postprocessor;
 
 import java.text.MessageFormat;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;
 
-import com.spring.practice.bean.Employee;
-import com.spring.practice.bean.PrintSomeMessage;
-import com.spring.practice.utils.Log;
+import in.spring.practice.bean.Employee;
+import in.spring.practice.bean.PrintSomeMessage;
+import in.spring.practice.utils.Log;
 
 public class BeanPostProcessorExample implements BeanPostProcessor {
 

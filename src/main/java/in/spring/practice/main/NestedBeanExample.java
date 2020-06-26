@@ -1,8 +1,8 @@
-package com.spring.practice.main;
+package in.spring.practice.main;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-import com.spring.practice.bean.Bean1;
+import in.spring.practice.bean.Bean1;
 
 public class NestedBeanExample {
 

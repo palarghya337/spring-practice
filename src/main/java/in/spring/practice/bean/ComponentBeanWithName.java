@@ -1,9 +1,9 @@
-package com.spring.practice.bean;
+package in.spring.practice.bean;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
-import com.spring.practice.utils.Log;
+import in.spring.practice.utils.Log;
 
 @Component("anyNameIsFine")
 public class ComponentBeanWithName {

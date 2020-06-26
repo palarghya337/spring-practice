@@ -1,4 +1,4 @@
-package com.spring.practice.bean;
+package in.spring.practice.bean;
 
 import org.springframework.stereotype.Service;
 

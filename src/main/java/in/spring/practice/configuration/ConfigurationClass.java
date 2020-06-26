@@ -1,14 +1,14 @@
-package com.spring.practice.configuration;
+package in.spring.practice.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 
-import com.spring.practice.bean.BeanNameAwareExample;
-import com.spring.practice.bean.PostConstructAndPreDestroy;
-import com.spring.practice.bean.SingletonBean;
-import com.spring.practice.beanfactory.BeanFactoryAwareExample;
+import in.spring.practice.bean.BeanNameAwareExample;
+import in.spring.practice.bean.PostConstructAndPreDestroy;
+import in.spring.practice.bean.SingletonBean;
+import in.spring.practice.beanfactory.BeanFactoryAwareExample;
 
 /**
  * @author Bittu

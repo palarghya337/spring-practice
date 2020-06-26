@@ -1,4 +1,4 @@
-package com.spring.practice.lifecycle;
+package in.spring.practice.lifecycle;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;

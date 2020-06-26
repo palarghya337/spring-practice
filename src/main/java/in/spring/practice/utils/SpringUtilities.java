@@ -1,4 +1,4 @@
-package com.spring.practice.utils;
+package in.spring.practice.utils;
 
 import java.util.Objects;
 
@@ -8,7 +8,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.context.support.FileSystemXmlApplicationContext;
 import org.springframework.core.io.ClassPathResource;
 
-import com.spring.practice.exception.InvalidDataException;
+import in.spring.practice.exception.InvalidDataException;
 
 public final class SpringUtilities {
 

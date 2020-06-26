@@ -1,9 +1,9 @@
-package com.spring.practice.postprocessor;
+package in.spring.practice.postprocessor;
 
 import org.springframework.beans.factory.config.BeanFactoryPostProcessor;
 import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;
 
-import com.spring.practice.bean.PrintSomeMessage;
+import in.spring.practice.bean.PrintSomeMessage;
 
 public class BeanFactoryPostProcessorExample implements BeanFactoryPostProcessor {
 

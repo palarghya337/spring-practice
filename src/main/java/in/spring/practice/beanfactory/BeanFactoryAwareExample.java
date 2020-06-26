@@ -1,4 +1,4 @@
-package com.spring.practice.beanfactory;
+package in.spring.practice.beanfactory;
 
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.BeanFactoryAware;

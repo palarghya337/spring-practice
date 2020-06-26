@@ -1,18 +1,18 @@
-package com.spring.practice.main;
+package in.spring.practice.main;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.core.SpringVersion;
 
-import com.spring.practice.bean.BeanNameAwareExample;
-import com.spring.practice.bean.ComponentBeanWithName;
-import com.spring.practice.bean.ComponentBeanWithoutName;
-import com.spring.practice.bean.LiteModeBeanExample;
-import com.spring.practice.bean.PracticeBean;
-import com.spring.practice.bean.ServiceBean;
-import com.spring.practice.bean.SingletonBean;
-import com.spring.practice.beanfactory.BeanFactoryAwareExample;
-import com.spring.practice.configuration.ConfigurationClass;
-import com.spring.practice.utils.Log;
+import in.spring.practice.bean.BeanNameAwareExample;
+import in.spring.practice.bean.ComponentBeanWithName;
+import in.spring.practice.bean.ComponentBeanWithoutName;
+import in.spring.practice.bean.LiteModeBeanExample;
+import in.spring.practice.bean.PracticeBean;
+import in.spring.practice.bean.ServiceBean;
+import in.spring.practice.bean.SingletonBean;
+import in.spring.practice.beanfactory.BeanFactoryAwareExample;
+import in.spring.practice.configuration.ConfigurationClass;
+import in.spring.practice.utils.Log;
 
 public class AnnotationBasedSpringExamples {
 

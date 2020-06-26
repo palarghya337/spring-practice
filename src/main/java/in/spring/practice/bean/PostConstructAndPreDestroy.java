@@ -1,9 +1,9 @@
-package com.spring.practice.bean;
+package in.spring.practice.bean;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 
-import com.spring.practice.utils.Log;
+import in.spring.practice.utils.Log;
 
 public class PostConstructAndPreDestroy {
 

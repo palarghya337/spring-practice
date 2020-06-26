@@ -1,8 +1,8 @@
-package com.spring.practice.bean;
+package in.spring.practice.bean;
 
 import org.springframework.beans.factory.BeanNameAware;
 
-import com.spring.practice.utils.Log;
+import in.spring.practice.utils.Log;
 
 public class BeanNameAwareExample implements BeanNameAware {
 

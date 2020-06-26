@@ -1,9 +1,9 @@
-package com.spring.practice.utils;
+package in.spring.practice.utils;
 
 import java.text.MessageFormat;
 import java.util.logging.Logger;
 
-import com.spring.practice.exception.InvalidOperationException;
+import in.spring.practice.exception.InvalidOperationException;
 
 public final class Log {
 

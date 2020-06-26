@@ -1,6 +1,6 @@
-package com.spring.practice.bean;
+package in.spring.practice.bean;
 
-import com.spring.practice.utils.Log;
+import in.spring.practice.utils.Log;
 
 public class PrintSomeMessage {
 
