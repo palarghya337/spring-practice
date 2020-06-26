@@ -1,14 +1,13 @@
 package com.spring.practice.bean;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
+import javax.annotation.Resource;
+
 import org.springframework.stereotype.Component;
 
-@Component(value = "bean2")
+@Component
 public class Bean2 {
 
-	@Autowired
-	@Qualifier(value = "bean3")
+	@Resource(name = "bean3")
 	private Bean3 bean3;
 	
 	public Bean2() {
