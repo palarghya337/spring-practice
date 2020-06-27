@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class Configurations {
 
-	@Bean(initMethod = "init", destroyMethod = "destroy")
+	@Bean(initMethod = "init", destroyMethod = "customDestroy")
 	public UserBean getUserBean() {
 		return new UserBean();
 	}
