@@ -2,8 +2,12 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>spring-practice</groupId>
 	<artifactId>spring-practice</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>Spring-Practice-Project</name>
+    <packaging>pom</packaging>
+    <version>0.0.1-SNAPSHOT</version>
+    <modules>
+        <module>core</module>
+    </modules>
+    <name>spring-practice</name>
   
 	<properties>
 		<java.version>1.8</java.version>
@@ -12,7 +16,6 @@
 		<maven.compiler.target>${java.version}</maven.compiler.target>
 		</properties>
 	<dependencies>
-		<!-- https://mvnrepository.com/artifact/org.springframework/spring-core -->
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-core</artifactId>

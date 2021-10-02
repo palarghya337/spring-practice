@@ -16,7 +16,7 @@ import in.spring.practice.beanfactory.BeanFactoryAwareExample;
  */
 @Configuration
 @ComponentScan("com.spring.practice.bean")
-@PropertySource("com/spring/practice/properties/PropertyFile.properties")
+@PropertySource("in/spring/practice/properties/PropertyFile.properties")
 public class ConfigurationClass {
 
 	@Bean(name = "beanNameAwareExample")
